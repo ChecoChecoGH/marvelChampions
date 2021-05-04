@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="801.0" prefWidth="992.0">
+         <children>
+            <HBox layoutX="389.0" layoutY="192.0" prefHeight="140.0" prefWidth="215.0" spacing="5.0" style="-fx-background-color: #4d4c4c;">
+               <children>
+                  <AnchorPane prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #ac3333;" />
+                  <AnchorPane layoutX="15.0" layoutY="15.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #ac3333;" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="enMano" layoutX="24.0" layoutY="642.0" prefHeight="140.0" prefWidth="739.0" spacing="5.0" style="-fx-background-color: #c3c3c3;">
+               <children>
+                  <AnchorPane fx:id="carta1" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta11" layoutX="10.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta111" layoutX="115.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta112" layoutX="115.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta113" layoutX="115.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta114" layoutX="115.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+                  <AnchorPane fx:id="carta1121" layoutX="325.0" layoutY="10.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="enJuego" layoutX="24.0" layoutY="491.0" prefHeight="140.0" prefWidth="945.0" style="-fx-background-color: #a8a8a8;" />
+            <AnchorPane layoutX="869.0" layoutY="647.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #457eb1;" />
+            <Label alignment="CENTER" layoutX="471.0" layoutY="14.0" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: #ac3333;" text="100" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="26.0" />
+               </font>
+            </Label>
+            <HBox fx:id="enJuego1" layoutX="24.0" layoutY="341.0" prefHeight="140.0" prefWidth="945.0" style="-fx-background-color: #500000;" />
+            <AnchorPane layoutX="446.0" layoutY="52.0" prefHeight="129.0" prefWidth="100.0" style="-fx-background-color: #ac3333;" />
+            <AnchorPane layoutX="594.0" layoutY="52.0" prefHeight="100.0" prefWidth="129.0" style="-fx-background-color: #ac3333;" />
+            <Label alignment="CENTER" layoutX="633.0" layoutY="14.0" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: #ac3333;" text="0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
